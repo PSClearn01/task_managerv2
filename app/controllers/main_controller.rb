@@ -5,6 +5,7 @@ class MainController < ApplicationController
   end
 
   def about
+    @created_by = "PuroSur"
     # render('about')
   end
 
